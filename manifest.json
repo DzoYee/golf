@@ -1,0 +1,214 @@
+{
+  "_meta": {
+    "description": "Living inventory of the golf knowledge base. Tracks topics, relationships, and open questions. Built incrementally as topics are added.",
+    "status_values": {
+      "draft": "Content written but not reviewed for accuracy or completeness",
+      "complete": "Content reviewed and considered accurate",
+      "stub": "Placeholder file with minimal content",
+      "needs-expansion": "Content exists but key areas are missing"
+    },
+    "how_to_read": "Each topic entry lists the file, its current status, a summary, and which other topics it links to and is linked from. Relationships captures explicit cause-and-effect chains between concepts. Open questions track unresolved items."
+  },
+  "topics": {
+    "grip": {
+      "file": "grip/INDEX.md",
+      "status": "draft",
+      "summary": "Navigation hub for the grip section — links to statics, dynamics, and connections.",
+      "links_to": ["grip/overview", "grip/statics", "grip/dynamics", "grip/connections"],
+      "linked_from": ["root"]
+    },
+    "grip/overview": {
+      "file": "grip/overview.md",
+      "status": "draft",
+      "summary": "What grip is, why it matters, and how to read the grip section.",
+      "links_to": ["grip/statics", "grip/dynamics", "grip/connections", "grip/connections/statics-to-dynamics", "grip/statics/combinations"],
+      "linked_from": ["grip"]
+    },
+    "grip/statics": {
+      "file": "grip/statics/INDEX.md",
+      "status": "draft",
+      "summary": "Navigation hub for grip statics — hand placement and grip strength.",
+      "links_to": ["grip/statics/left-hand", "grip/statics/right-hand", "grip/statics/weak", "grip/statics/neutral", "grip/statics/strong", "grip/statics/combinations", "grip/dynamics", "grip/connections/statics-to-dynamics"],
+      "linked_from": ["grip", "grip/overview"]
+    },
+    "grip/statics/left-hand": {
+      "file": "grip/statics/left-hand.md",
+      "status": "draft",
+      "summary": "Left hand placement on the club — finger grip, knuckle visibility, role in face control and shoulder connection.",
+      "links_to": ["grip/statics/weak", "grip/statics/neutral", "grip/statics/strong", "grip/statics/right-hand", "grip/statics/combinations", "grip/dynamics/forearm-rotation", "grip/dynamics/face-control", "grip/connections/left-shoulder"],
+      "linked_from": ["grip/statics", "grip/dynamics/forearm-rotation", "grip/dynamics/low-point-control", "grip/connections/statics-to-dynamics"]
+    },
+    "grip/statics/right-hand": {
+      "file": "grip/statics/right-hand.md",
+      "status": "draft",
+      "summary": "Right hand placement — lifeline, grip styles (overlap/interlock/ten-finger), role in speed and face fine-tuning.",
+      "links_to": ["grip/statics/left-hand", "grip/statics/weak", "grip/statics/neutral", "grip/statics/strong", "grip/statics/combinations", "grip/dynamics/face-control", "grip/dynamics/low-point-control"],
+      "linked_from": ["grip/statics", "grip/dynamics/forearm-rotation", "grip/dynamics/face-control", "grip/connections/statics-to-dynamics"]
+    },
+    "grip/statics/weak": {
+      "file": "grip/statics/weak.md",
+      "status": "draft",
+      "summary": "Weak grip concept — hand rotated toward target, open face bias, high rotation demand.",
+      "links_to": ["grip/statics/neutral", "grip/statics/strong", "grip/statics/left-hand", "grip/statics/right-hand", "grip/statics/combinations", "grip/dynamics/forearm-rotation", "grip/dynamics/face-control"],
+      "linked_from": ["grip/statics", "grip/statics/left-hand", "grip/statics/right-hand", "grip/statics/combinations", "grip/dynamics/forearm-rotation", "grip/dynamics/face-control", "grip/connections/statics-to-dynamics"]
+    },
+    "grip/statics/neutral": {
+      "file": "grip/statics/neutral.md",
+      "status": "draft",
+      "summary": "Neutral grip concept — baseline position, moderate rotation demand, no face bias.",
+      "links_to": ["grip/statics/weak", "grip/statics/strong", "grip/statics/left-hand", "grip/statics/right-hand", "grip/statics/combinations", "grip/dynamics/forearm-rotation", "grip/dynamics/face-control", "grip/connections/statics-to-dynamics"],
+      "linked_from": ["grip/statics", "grip/statics/left-hand", "grip/statics/right-hand", "grip/statics/combinations", "grip/dynamics/forearm-rotation", "grip/dynamics/face-control", "grip/connections/statics-to-dynamics"]
+    },
+    "grip/statics/strong": {
+      "file": "grip/statics/strong.md",
+      "status": "draft",
+      "summary": "Strong grip concept — hand rotated away from target, closed face bias, low rotation demand.",
+      "links_to": ["grip/statics/weak", "grip/statics/neutral", "grip/statics/left-hand", "grip/statics/right-hand", "grip/statics/combinations", "grip/dynamics/forearm-rotation", "grip/dynamics/face-control"],
+      "linked_from": ["grip/statics", "grip/statics/left-hand", "grip/statics/right-hand", "grip/statics/combinations", "grip/dynamics/forearm-rotation", "grip/dynamics/face-control", "grip/connections/statics-to-dynamics", "grip/connections/left-shoulder"]
+    },
+    "grip/statics/combinations": {
+      "file": "grip/statics/combinations.md",
+      "status": "draft",
+      "summary": "3×3 matrix of left × right grip strength combinations — 9 pairings with face bias, rotation demand, and ball flight tendencies.",
+      "links_to": ["grip/statics/weak", "grip/statics/neutral", "grip/statics/strong", "grip/statics/left-hand", "grip/statics/right-hand", "grip/dynamics/forearm-rotation", "grip/dynamics/face-control", "grip/connections/statics-to-dynamics"],
+      "linked_from": ["grip/statics", "grip/overview", "grip/statics/left-hand", "grip/statics/right-hand", "grip/statics/weak", "grip/statics/neutral", "grip/statics/strong", "grip/dynamics/forearm-rotation", "grip/dynamics/face-control"]
+    },
+    "grip/dynamics": {
+      "file": "grip/dynamics/INDEX.md",
+      "status": "draft",
+      "summary": "Navigation hub for grip dynamics — forearm rotation, face control, low point.",
+      "links_to": ["grip/dynamics/forearm-rotation", "grip/dynamics/face-control", "grip/dynamics/low-point-control", "grip/statics", "grip/connections/statics-to-dynamics", "grip/statics/combinations"],
+      "linked_from": ["grip", "grip/overview", "grip/statics"]
+    },
+    "grip/dynamics/forearm-rotation": {
+      "file": "grip/dynamics/forearm-rotation.md",
+      "status": "draft",
+      "summary": "How forearms rotate through the swing — rotation budget set by grip strength, rate vs. timing, supply vs. demand.",
+      "links_to": ["grip/statics/weak", "grip/statics/neutral", "grip/statics/strong", "grip/statics/left-hand", "grip/statics/right-hand", "grip/statics/combinations", "grip/dynamics/face-control", "grip/connections/statics-to-dynamics", "grip/connections/left-shoulder"],
+      "linked_from": ["grip/dynamics", "grip/statics/left-hand", "grip/statics/weak", "grip/statics/neutral", "grip/statics/strong", "grip/statics/combinations", "grip/dynamics/face-control", "grip/dynamics/low-point-control"]
+    },
+    "grip/dynamics/face-control": {
+      "file": "grip/dynamics/face-control.md",
+      "status": "draft",
+      "summary": "Clubface angle at impact — what determines it, how grip strength biases it, the 75-85% rule for starting direction.",
+      "links_to": ["grip/dynamics/forearm-rotation", "grip/dynamics/low-point-control", "grip/statics/weak", "grip/statics/neutral", "grip/statics/strong", "grip/statics/left-hand", "grip/statics/right-hand", "grip/statics/combinations"],
+      "linked_from": ["grip/dynamics", "grip/overview", "grip/statics/left-hand", "grip/statics/right-hand", "grip/statics/weak", "grip/statics/neutral", "grip/statics/strong", "grip/statics/combinations", "grip/dynamics/forearm-rotation", "grip/dynamics/low-point-control"]
+    },
+    "grip/dynamics/low-point-control": {
+      "file": "grip/dynamics/low-point-control.md",
+      "status": "draft",
+      "summary": "Where the club bottoms out — influenced by wrist hinge retention, right hand dominance, and forearm rotation timing.",
+      "links_to": ["grip/dynamics/forearm-rotation", "grip/dynamics/face-control", "grip/statics/left-hand", "grip/statics/right-hand", "grip/statics/strong", "grip/statics/neutral", "grip/statics/weak", "grip/connections/statics-to-dynamics"],
+      "linked_from": ["grip/dynamics", "grip/statics/right-hand", "grip/dynamics/face-control"]
+    },
+    "grip/connections": {
+      "file": "grip/connections/INDEX.md",
+      "status": "draft",
+      "summary": "Navigation hub for grip connections — how grip ripples into shoulders and swing mechanics.",
+      "links_to": ["grip/connections/left-shoulder", "grip/connections/statics-to-dynamics", "grip/statics", "grip/dynamics"],
+      "linked_from": ["grip", "grip/overview"]
+    },
+    "grip/connections/left-shoulder": {
+      "file": "grip/connections/left-shoulder.md",
+      "status": "draft",
+      "summary": "Mechanical chain from left hand to left shoulder — how grip rotation changes shoulder position, swing plane, and path.",
+      "links_to": ["grip/statics/left-hand", "grip/statics/strong", "grip/statics/neutral", "grip/statics/weak", "grip/statics/combinations", "grip/dynamics/forearm-rotation", "grip/dynamics/face-control", "grip/connections/statics-to-dynamics"],
+      "linked_from": ["grip/connections", "grip/overview", "grip/statics/left-hand", "grip/dynamics/forearm-rotation", "grip/connections/statics-to-dynamics"]
+    },
+    "grip/connections/statics-to-dynamics": {
+      "file": "grip/connections/statics-to-dynamics.md",
+      "status": "draft",
+      "summary": "Explicit mapping from grip setup variables to swing motion outcomes — the bridge between statics and dynamics.",
+      "links_to": ["grip/statics", "grip/dynamics", "grip/statics/weak", "grip/statics/neutral", "grip/statics/strong", "grip/statics/left-hand", "grip/statics/combinations", "grip/dynamics/forearm-rotation", "grip/dynamics/face-control", "grip/dynamics/low-point-control", "grip/connections/left-shoulder", "grip/overview"],
+      "linked_from": ["grip/connections", "grip/overview", "grip/statics", "grip/dynamics", "grip/statics/neutral", "grip/statics/combinations", "grip/dynamics/forearm-rotation", "grip/dynamics/low-point-control"]
+    }
+  },
+  "relationships": [
+    {
+      "from": "grip/statics/strong",
+      "to": "grip/dynamics/face-control",
+      "type": "influences",
+      "description": "Strong grip biases clubface toward closed at impact, reducing rotation demand"
+    },
+    {
+      "from": "grip/statics/weak",
+      "to": "grip/dynamics/face-control",
+      "type": "influences",
+      "description": "Weak grip biases clubface toward open at impact, increasing rotation demand"
+    },
+    {
+      "from": "grip/statics/strong",
+      "to": "grip/dynamics/forearm-rotation",
+      "type": "reduces_demand",
+      "description": "Strong grip pre-closes face, requiring less forearm rotation to square it"
+    },
+    {
+      "from": "grip/statics/weak",
+      "to": "grip/dynamics/forearm-rotation",
+      "type": "increases_demand",
+      "description": "Weak grip starts face open, requiring more forearm rotation to square it"
+    },
+    {
+      "from": "grip/statics/left-hand",
+      "to": "grip/connections/left-shoulder",
+      "type": "mechanical_chain",
+      "description": "Left hand rotation on club changes left forearm position, which changes left shoulder orientation"
+    },
+    {
+      "from": "grip/connections/left-shoulder",
+      "to": "grip/dynamics/face-control",
+      "type": "influences",
+      "description": "Shoulder position affects swing plane and path, which interacts with face angle to determine ball flight"
+    },
+    {
+      "from": "grip/statics/combinations",
+      "to": "grip/dynamics/forearm-rotation",
+      "type": "determines",
+      "description": "The specific left-right grip strength pairing determines total rotation demand and whether the hands work together or fight"
+    },
+    {
+      "from": "grip/dynamics/forearm-rotation",
+      "to": "grip/dynamics/face-control",
+      "type": "primary_mechanism",
+      "description": "Forearm rotation is the main mechanism that closes the clubface through impact"
+    },
+    {
+      "from": "grip/dynamics/forearm-rotation",
+      "to": "grip/dynamics/low-point-control",
+      "type": "influences",
+      "description": "Rotation timing affects release timing, which shifts where the club bottoms out"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "GQ-1",
+      "question": "How does grip pressure (squeeze force) interact with grip strength (rotation)? Are they independent variables or do they correlate?",
+      "status": "open",
+      "related_topics": ["grip/statics/left-hand", "grip/statics/right-hand", "grip/dynamics/forearm-rotation"]
+    },
+    {
+      "id": "GQ-2",
+      "question": "What is the quantitative relationship between knuckle count and actual degrees of face rotation? Is 1 knuckle ≈ X degrees?",
+      "status": "open",
+      "related_topics": ["grip/statics/left-hand", "grip/statics/weak", "grip/statics/neutral", "grip/statics/strong"]
+    },
+    {
+      "id": "GQ-3",
+      "question": "Does grip style (overlap vs. interlock vs. ten-finger) meaningfully affect face control, or is it purely a comfort/feel preference?",
+      "status": "open",
+      "related_topics": ["grip/statics/right-hand", "grip/dynamics/face-control"]
+    },
+    {
+      "id": "GQ-4",
+      "question": "How do glove and grip (equipment) characteristics interact with hand placement? Does a worn grip change the effective grip strength?",
+      "status": "open",
+      "related_topics": ["grip/statics/left-hand", "grip/statics/right-hand"]
+    },
+    {
+      "id": "GQ-5",
+      "question": "What grip combinations are most common among tour players? Is there data on the distribution of left/right strengths at the elite level?",
+      "status": "open",
+      "related_topics": ["grip/statics/combinations"]
+    }
+  ]
+}
