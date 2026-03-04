@@ -8,8 +8,9 @@ Statics covers the physical placement of the hands on the club at address — be
 
 | File | Description |
 |------|-------------|
-| [Left Hand](left-hand.md) | How the left hand grips the club, finger placement, knuckle visibility |
-| [Right Hand](right-hand.md) | How the right hand fits onto the club, lifeline, finger role |
+| [Left Hand](left-hand.md) | How the left hand grips the club — fingers vs. palm debate, knuckle visibility |
+| [Right Hand](right-hand.md) | How the right hand fits onto the club, lifeline, grip styles |
+| [Thumb Position](thumb-position.md) | Long vs. short thumb — competing approaches and tradeoffs |
 
 ## Grip Strength
 

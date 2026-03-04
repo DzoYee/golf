@@ -53,12 +53,14 @@ When both hands are at the same strength ([matched combinations](../statics/comb
 
 ## Common Patterns
 
-| Pattern | Symptom | Grip-Based Fix |
-|---------|---------|----------------|
-| Face open at impact, consistent slice | Rotation demand exceeds supply | Strengthen left hand → reduce demand |
-| Face closed at impact, consistent hook | Rotation supply exceeds demand | Weaken left hand → increase demand |
-| Inconsistent face angle, both hooks and slices | Hands at conflicting strengths | Match the hand strengths → reduce internal conflict |
-| Good face control but wrong path | Rotation is fine — problem is elsewhere | Grip may not be the issue |
+These are one way to interpret these symptoms — grip is often a reasonable place to look, but it's one of several variables. See [face squaring mechanisms](face-squaring-mechanisms.md) for the broader picture.
+
+| Pattern | One Possible Interpretation | One Possible Grip Adjustment |
+|---------|----------------------------|------------------------------|
+| Consistent slice | Rotation supply may not be meeting demand | Strengthen left hand to reduce demand |
+| Consistent hook | Rotation may be exceeding demand | Weaken left hand to increase demand |
+| Inconsistent face angle (both hooks and slices) | Hands may be at conflicting strengths | Match the hand strengths to reduce internal conflict |
+| Good face control but consistent directional miss | Rotation timing may be fine — path problem | Grip adjustment may not help here |
 
 ## See Also
 

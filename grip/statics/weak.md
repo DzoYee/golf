@@ -26,11 +26,12 @@ A weak grip creates a starting position where the clubface is biased toward **op
 
 3. **Higher ball flight** — An open face adds dynamic loft at impact, producing higher launch with more spin.
 
-## When It's Used
+## When It's Seen or Used
 
-- Players who naturally rotate the forearms aggressively may use a weak grip to prevent the face from closing too much
-- Players who want to hit a controlled fade
-- Some tour players (notably Ben Hogan in his later career) used a weak left hand to eliminate the left miss
+- Players who naturally rotate the forearms aggressively — a weak grip increases the rotation demand, which may match their natural pattern
+- Players who want to produce a fade as their stock shot
+- Some tour players (notably Ben Hogan in his later career) used a weak left hand to make the left miss very difficult
+- In some teaching contexts, a deliberately weak grip is used to force the student to develop supination and wrist flexion — see [teaching intent](../connections/teaching-intent.md)
 
 ## Tradeoffs
 

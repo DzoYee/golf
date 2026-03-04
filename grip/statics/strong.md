@@ -26,12 +26,12 @@ A strong grip creates a starting position where the clubface is biased toward **
 
 3. **Lower ball flight** — A closed face reduces dynamic loft at impact, producing lower launch with less spin.
 
-## When It's Used
+## When It's Seen or Used
 
-- Players who slice the ball often move to a stronger grip to reduce the open face at impact
+- Players whose rotation pattern tends to leave the face open — strengthening the grip reduces the rotation demand to match their natural pattern
 - Players who want to hit a draw as their stock shot
-- Many modern tour players play with a moderately strong left hand grip
-- Players with slower forearm rotation who need the grip to do some of the closing work
+- A moderately strong left hand grip is fairly common among professional players, though the range varies widely
+- Some teachers use a strong grip as a "safe diet" setup — the grip pre-closes the face enough that the student can release in a range of ways and still produce acceptable results. See [teaching intent](../connections/teaching-intent.md).
 
 ## Tradeoffs
 

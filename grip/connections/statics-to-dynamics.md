@@ -6,7 +6,7 @@ This file is the bridge between the [statics](../statics/INDEX.md) and [dynamics
 
 ## The Core Principle
 
-The static grip doesn't cause the swing motion — the body does. But the grip sets the **starting conditions** that make certain motions easier, harder, or unnecessary. Changing the grip changes the difficulty level of every dynamic task in the swing.
+The static grip doesn't cause the swing motion — the body does. But the grip sets the **starting conditions** that make certain motions easier, harder, or unnecessary. The tables below describe tendencies, not deterministic outcomes. Other variables — wrist conditions, release style, body rotation — all contribute to the same outcomes. See [face squaring mechanisms](../dynamics/face-squaring-mechanisms.md) for the broader picture and [matchups](matchups.md) for how grip combines with those other variables into consistent systems.
 
 ## Mapping: Grip Strength → Dynamics
 

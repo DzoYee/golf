@@ -50,12 +50,14 @@ The right hand has three jobs:
 
 3. **Path influence** — The right hand and right shoulder are connected. An overly dominant right hand can push the swing path over the top (out to in), affecting both direction and [low point control](../dynamics/low-point-control.md).
 
-## Common Errors
+## Things to Watch
 
-- **Right hand too much on top** — Creates a weak right hand that wants to leave the face open. The golfer compensates by flipping the hands through impact.
-- **Right hand too much under** — Creates an overly strong right hand that closes the face aggressively. Can produce hooks and low pulls.
-- **Death grip with the right hand** — Squeezing too hard restricts the natural release of the club and reduces clubhead speed.
-- **Lifeline not covering left thumb** — The hands feel disconnected, leading to inconsistent face control because the two hands move independently.
+These are patterns that teachers commonly flag, though whether they're "errors" depends on the player's system:
+
+- **Right hand too much on top** — a more [weak](weak.md) right hand position. In some systems this is intentional; in others it can leave the face open and produce compensation patterns through impact.
+- **Right hand too much under** — a very [strong](strong.md) right hand. May close the face aggressively; some players use this deliberately, others need to develop the hold-off skills to manage it. See [matchups](../connections/matchups.md).
+- **Excessive grip pressure in the right hand** — squeezing hard with the right hand is widely thought to restrict forearm rotation and reduce clubhead speed, though the optimal pressure level varies by player.
+- **Lifeline not covering left thumb** — the hands feel disconnected. Most instruction emphasizes this connection, though the degree of importance varies by grip style and how unified the teacher wants the hands to feel.
 
 ## See Also
 

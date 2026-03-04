@@ -16,7 +16,7 @@ Face control is the ability to deliver the clubface at a predictable angle at im
 
 ## What Determines Face Angle
 
-Face angle at impact is the result of several factors, but the grip is the starting point:
+Face angle at impact is the result of several interacting factors. The grip is one of them — and often a good place to start analysis — but changing the grip alone doesn't always fix a face control problem because the other mechanisms also contribute. See [face squaring mechanisms](face-squaring-mechanisms.md) for the full picture. Here's the grip's contribution specifically:
 
 ### 1. Grip Strength (Static Setup)
 
@@ -44,29 +44,29 @@ The left wrist can be bowed (flexed), flat, or cupped (extended) at impact:
 
 The [right hand](../statics/right-hand.md) can add or override face closure through the hitting zone. An overly active right hand "flipping" through impact is one of the most common causes of inconsistent face control — it adds a variable rotation source that's hard to time.
 
-## Face Control and Grip Strength: The Core Relationship
+## Grip Strength and Face Angle: A Starting Framework
 
-The reason grip is the **first variable** teachers look at when diagnosing ball flight:
+Grip strength creates a predictable baseline bias:
 
 ```
-Strong grip  →  face starts closed  →  needs LESS rotation  →  easier to square or close
-Neutral grip →  face starts neutral →  needs MODERATE rotation  →  requires consistent mechanics
-Weak grip    →  face starts open    →  needs MORE rotation  →  harder to square, easier to leave open
+Strong grip  →  face starts closed  →  less rotation needed  →  tends toward draw/hook
+Neutral grip →  face starts neutral →  moderate rotation needed  →  neutral tendency
+Weak grip    →  face starts open    →  more rotation needed  →  tends toward fade/slice
 ```
 
-This means **grip strength is the coarsest adjustment knob for face control**. Before changing swing mechanics, changing the grip can shift the entire face-control curve. See [combinations](../statics/combinations.md) for how the two hands' strengths interact.
+Many teachers use grip strength as an early adjustment point because it's visible, easy to change, and has predictable effects. But it's worth noting that [other mechanisms](face-squaring-mechanisms.md) — wrist conditions, body rotation, release style — also contribute. A player with a "wrong" grip for their ball flight may actually have a mismatched wrist condition or release style, and changing the grip may mask rather than fix the underlying pattern. See [matchups](../connections/matchups.md) for how grip strength fits into larger consistent systems. See [combinations](../statics/combinations.md) for how left and right hand strengths interact with each other.
 
-## Common Face Control Problems
+## Common Face Control Patterns
 
-| Problem | Likely Cause | Grip Consideration |
-|---------|-------------|-------------------|
-| Consistent slice | Face open to path at impact | Grip may be too weak — consider strengthening left hand |
-| Consistent hook | Face closed to path at impact | Grip may be too strong — consider weakening left hand |
-| Inconsistent direction | Face angle varies shot to shot | Hands may be at conflicting strengths, or right hand is overactive |
-| Straight pulls (left) | Face square to path, but path is left | Grip may not be the issue — path problem |
-| Straight pushes (right) | Face square to path, but path is right | Grip may not be the issue — path problem |
+| Pattern | Possible Interpretation | One Place to Look |
+|---------|------------------------|-------------------|
+| Consistent slice | Face open to path at impact | Grip, wrist conditions, release style — or a combination |
+| Consistent hook | Face closed to path at impact | Grip, wrist bow, grip-release mismatch |
+| Inconsistent direction | Face angle varying shot to shot | Conflicting hand strengths, inconsistent wrist conditions, right hand activity varying |
+| Straight pulls | Face square to path, path is left | Path problem — grip may not be the lever |
+| Straight pushes | Face square to path, path is right | Path problem — grip may not be the lever |
 
-Note: pulls and pushes are **path** problems with good face control. Only curves (fade, draw, slice, hook) indicate a face-to-path mismatch where grip is the primary lever.
+Pulls and pushes are path problems with consistent face control. Curves (fade, draw, slice, hook) indicate a face-to-path mismatch — this is where grip and related mechanisms are most relevant. But identifying whether the mismatch comes from grip, wrist, or release requires looking at the full picture. See [face squaring mechanisms](face-squaring-mechanisms.md).
 
 ## See Also
 

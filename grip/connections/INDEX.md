@@ -9,7 +9,9 @@ Connections maps how grip decisions ripple beyond the hands into the rest of the
 | File | Description |
 |------|-------------|
 | [Left Shoulder](left-shoulder.md) | How the left hand position connects mechanically to the left shoulder, affecting swing plane and arm structure |
-| [Statics → Dynamics](statics-to-dynamics.md) | The explicit bridge between grip setup positions and the motions they produce |
+| [Statics → Dynamics](statics-to-dynamics.md) | The bridge between grip setup positions and the motions they tend to produce |
+| [Matchups](matchups.md) | How grip and other face-squaring variables combine into internally consistent systems |
+| [Teaching Intent](teaching-intent.md) | Grip as a pedagogical tool — the safe diet vs. education through constraint |
 
 ## Key Idea
 

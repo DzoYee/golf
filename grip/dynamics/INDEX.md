@@ -8,6 +8,7 @@ Dynamics covers what happens to the hands, forearms, and clubface during the swi
 
 | File | Description |
 |------|-------------|
+| [Face Squaring Mechanisms](face-squaring-mechanisms.md) | All the variables that contribute to face angle at impact — grip is one of several |
 | [Forearm Rotation](forearm-rotation.md) | How the forearms rotate through the swing and how grip strength sets the rotation budget |
 | [Face Control](face-control.md) | Clubface angle at impact — open, square, closed — and what determines it |
 | [Low Point Control](low-point-control.md) | Where the club bottoms out, ground contact, and how the grip influences it |
